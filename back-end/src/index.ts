@@ -11,7 +11,7 @@ const data = [
   {id: 1, nome: "John", email: 'john@gmail.com', senha: 'john@123'}
 ]
 
-//rota de cadastro de usuario
+//route to add a new user
 app.post('/cadastro', (req:any, res:any) => {
     const newUser = req.body
     data.push(newUser)
